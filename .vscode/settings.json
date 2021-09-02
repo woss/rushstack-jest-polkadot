@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "tsconfig.json": "jsonc",
+    "*.cjs": "javascript",
+    "rush.json": "jsonc",
+    "heft.json": "jsonc",
+    "rig.json": "jsonc",
+    "api-extractor.json": "jsonc",
+    "typescript.json": "jsonc"
+  }
+}
