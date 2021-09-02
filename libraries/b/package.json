@@ -5,14 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "heft test --clean",
-    "start": "heft test --clean --watch"
+    "start": "heft test --clean --watch",
+    "test": "NODE_OPTIONS=--experimental-vm-modules CI=true pnpm start"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@jest/core": "~27.1.0",
-    "@jest/reporters": "~27.1.0",
-    "@jest/transform": "~27.1.0",
     "@rushstack/rig-package": "~0.3.0",
     "@types/ramda": "^0.27.40",
     "eslint": "^7.32.0",

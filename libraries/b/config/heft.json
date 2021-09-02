@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+
+  "heftPlugins": [
+    {
+      "plugin": "@rushstack/heft-jest-plugin",
+      "options": {
+        // (Not recommended) Disable Heft's support for rigs and the "extends" field
+        "disableConfigurationModuleResolution": true
+      }
+    }
+  ]
+}
