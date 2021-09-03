@@ -30,3 +30,5 @@ Now it's failing with the message that has been failing so many times on polkado
 ```
 SyntaxError: Cannot use import statement outside a module
 ```
+
+![](Screenshot%202021-09-03%20115128.jpg)

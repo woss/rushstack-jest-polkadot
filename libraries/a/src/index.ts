@@ -1,6 +1,3 @@
-
-
-function main(): void {
-    console.log("Hello, world!");
-
+export function main(): void {
+  console.log("Hello, world!");
 }
