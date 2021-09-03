@@ -1,4 +1,4 @@
 {
-  "bail": 1,
-  "verbose": true
+  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
+  "testEnvironment": "node"
 }
